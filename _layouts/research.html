@@ -1,0 +1,20 @@
+---
+layout: default
+---
+  <div id="author_projects" class="card">
+  <h1 class="card-title">Previous Projects</h1><br />
+  {%for prj in site.author_project_details%} {%if prj.visibility == true%}
+  <a href="{{prj.project_url}}">
+    <div class="row" id="project-card">
+      <div class="col-lg-2 col-mg-3">
+        <img src="{{site.url}}{{site.baseurl}}/assets/img/{{prj.project_thumbnail}}" style="width: 100px; height: 100px;">
+      </div>
+      <div class="col-lg-10 col-mg-9 center">
+        <h4 class="experience-title">{{ prj.project_title }}</h4>
+        <h6 class="experience-info">{{ prj.project_affiliation}}</h6>
+        <p class="experience-desc">{{ prj.project_description }}</p>
+      </div>
+    </div>
+  </a>
+  {%endif%} {%endfor%}
+  </div>
