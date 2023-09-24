@@ -1,0 +1,22 @@
+# Projects
+project_details:
+  - title: Delay Calculator
+    description: A fast propagation delay estimator for standard cells
+    url: /delay_calculator.html
+    affiliation: "TSMC, Jun '22 - Jul '23"
+    thumbnail: TSMC-Logo.png
+    visibility: true
+
+  - title: Performance Analytical Model 
+    description: An analytical model for estimating tradeoffs between cache capacity and memory bandwidth
+    url: /cache_model.html
+    affiliation: "NTU CSIE, Jan '19 - Jun '21"
+    thumbnail: NTU-Logo.png
+    visibility: true
+
+  - title: Campus-wide Wi-Fi Monitoring and Visualization Framework
+    description: A framework for monitoring service quality of APs in the campus
+    affiliation: "NTU Computer Information and Network Center, Apr '18 - Jan '21 "
+    url: /ntu_ap_monitor.html
+    thumbnail: NTU-Logo.png
+    visibility: true

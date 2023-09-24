@@ -1,0 +1,73 @@
+
+
+# Edit Author details (For multi authors check _data/authors.yml)
+author_logo: profile.jpg
+author: Mike Tsai
+bio: Cheng-Yu (Mike) Tsai is a prospective PhD student in EE/CS, interested in computer architecture.
+email: "iijft1111@gmail.com"
+location: Hsinchu, Taiwan 🇹🇼
+website_url: "https://mike84265.github.io"
+typewrite-text: Cheng-Yu (Mike) Tsai is a prospective PhD student in EE/CS, interested in computer architecture.
+hero_cover_img: pinglin.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
+
+# social links
+twitter_username: MikeTsai986604
+github_username:  mike84265
+# facebook_username: johndoe
+linkedin_username: "cheng-yu-tsai-b65194230"
+# behance_username: johndoe
+instagram_username: "c.y.tsai_1001"
+# medium_username: johndoe
+# telegram_username: johndoe
+# dribbble_username: johndoe
+flickr_username: "143304545@N08"
+
+# Experiences
+work_experiences:
+  - company_name: Taiwan Semiconductor Manufacturing Company
+    company_logo: TSMC-Logo.png
+    company_url: https://tsmc.com/
+    designation: Engineer (RDSS)
+    description: Custom Design Flow Development Department, DTP, R&D
+    period: "Jul '21 - present"
+    visibility: true
+  - company_name: National Taiwan University
+    company_logo: NTU-Logo.png
+    company_url: https://www.ntu.edu.tw
+    designation: Teaching Assistant
+    description: Computer Architecture
+    period: "Sep '19 - Jan '20; Sep '20 - Jan '21"
+    visibility: true
+  - company_name: National Taiwan University
+    company_logo: NTU-Logo.png
+    company_url: https://www.ntu.edu.tw
+    designation: Part-time worker
+    description: Division of Network Management, Computer Information & Network Center
+    period: "Apr '18 - Jan '21"
+    visibility: true
+
+# Education
+education_details:
+  - college_name: National Taiwan University
+    college_logo: NTU-Logo.png
+    college_url: https://www.ntu.edu.tw
+    college_degree: Computer Science and Information Engineering
+    description: Master of Science
+    period: "Jan '19 - Jun '21"
+    visibility: true
+
+  - college_name: National Taiwan University
+    college_logo: NTU-Logo.png
+    college_url: https://www.ntu.edu.tw
+    college_degree: Electrical Engineering
+    description: Bachelor of Science in Engineering
+    period: "Sep '14 - Jan '19"
+    visibility: true
+
+  - college_name: National Taiwan University
+    college_logo: NTU-Logo.png
+    college_url: https://www.ntu.edu.tw
+    college_degree: Computer Science and Information Engineering
+    description: Bachelor of Science
+    period: "Sep '14 - Jan '19"
+    visibility: true

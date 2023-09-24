@@ -15,12 +15,12 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               {% for i in site.urls %}
-              <li class="nav-item">
+              <li class="nav-item" >
                 <a
-                  class="nav-link"
-                  href="{{ site.url}}{{site.baseurl}}{{ i.url }}"
-                  >{{ i.text }}</a
-                >
+                  class="nav-link {%if page.url == i.url%}current_tab{%endif%}"
+                  href="{{site.url}}{{site.baseurl}}{{ i.url }}"
+                  >{{ i.text }}
+                </a>
               </li>
               {% endfor %}
 

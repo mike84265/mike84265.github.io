@@ -1,5 +1,3 @@
-title: Mike Tsai
-subtitle: Cheng-Yu (Mike) Tsai is a prospective PhD student in EE/CS, interested in computer architecture.
 description: >- # this means to ignore newlines until "baseurl:"
   # devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
 
@@ -11,108 +9,14 @@ urls:
     - text: About
       url: /
     - text: Research
-      url: /research
+      url: /research/
+    - text: CV
+      url: /files/mike_tsai_cv.pdf
+    - text: Transcript
+      url: /files/mike_tsai_transcript.pdf
 
-# Edit Author details (For multi authors check _data/authors.yml)
-
-author_logo: profile.jpg
-author: Mike Tsai
-author_bio: Cheng-Yu (Mike) Tsai is a prospective PhD student in EE/CS, interested in computer architecture.
-author_email: "iijft1111@gmail.com"
-author_location: Hsinchu, Taiwan
-author_website_url: "https://mike84265.github.io"
-typewrite-text: Cheng-Yu (Mike) Tsai is a prospective PhD student in EE/CS, interested in computer architecture.
-hero_cover_img: pinglin.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
-
-# Experiences
-author_work_experiences:
-            - company_name: Taiwan Semiconductor Manufacturing Company
-              company_logo: TSMC-Logo.png
-              company_url: https://tsmc.com/
-              designation: Engineer
-              description: Custom Design Flow Development Department, DTP, R&D
-              period: "Jul '21 - present"
-              visibility: true
-            - company_name: National Taiwan University
-              company_logo: NTU-Logo.png
-              company_url: https://www.ntu.edu.tw
-              designation: Part-time worker
-              description: Division of Network Management, Computer Information & Network Center
-              period: "Apr '18 - Jan '21"
-              visibility: true
-
-# Education
-author_education_details:
-              - college_name: National Taiwan University
-                college_logo: NTU-Logo.png
-                college_url: https://www.ntu.edu.tw
-                college_degree: Computer Science and Information Engineering
-                description: Master of Science
-                period: "Jan '19 - Jun '21"
-                visibility: true
-
-              - college_name: National Taiwan University
-                college_logo: NTU-Logo.png
-                college_url: https://www.ntu.edu.tw
-                college_degree: Electrical Engineering
-                description: Bachelor of Science in Engineering
-                period: "Sep '14 - Jan '19"
-                visibility: true
-
-              - college_name: National Taiwan University
-                college_logo: NTU-Logo.png
-                college_url: https://www.ntu.edu.tw
-                college_degree: Computer Science and Information Engineering
-                description: Bachelor of Science
-                period: "Sep '14 - Jan '19"
-                visibility: true
-
-# Projects
-author_project_details:
-              - project_title: Delay Calculator
-                project_description: A fast propagation delay estimator for standard cells
-                project_url: /delay_calculator.html
-                project_affiliation: "TSMC, Jun '22 - Jul '23"
-                project_thumbnail: TSMC-Logo.png
-                visibility: true
-
-              - project_title: Performance Analytical Model 
-                project_description: An analytical model for estimating tradeoffs between cache capacity and memory bandwidth
-                project_url: /cache_model.html
-                project_affiliation: "NTU CSIE, Jan '19 - Jun '21"
-                project_thumbnail: NTU-Logo.png
-                visibility: true
-
-              - project_title: Campus-wide Wi-Fi Monitoring and Visualization Framework
-                project_description: A framework for monitoring service quality of APs in the campus
-                project_affiliation: "NTU Computer Information and Network Center, Apr '18 - Jan '21 "
-                project_url: /ntu_ap_monitor.html
-                project_thumbnail: NTU-Logo.png
-                visibility: true
-
-
-#               - project_thumbnail: gamershub.png
-#                 project_title: Gamers Hub
-#                 project_description: A Platform built for Gamers and Game Devs
-#                 project_url: https://gamershub.in
-#                 visibility: true
-#               - project_thumbnail: hack4r.PNG
-#                 project_title: Hack4r
-#                 project_description: A Platform built for Hackers and Penetration Testers
-#                 project_url: https://hack4r.com
-#                 visibility: true
-
-# social links
-twitter_username: MikeTsai986604
-github_username:  mike84265
-# facebook_username: johndoe
-linkedin_username: "cheng-yu-tsai-b65194230"
-# behance_username: johndoe
-instagram_username: "c.y.tsai_1001"
-# medium_username: johndoe
-# telegram_username: johndoe
-# dribbble_username: johndoe
-flickr_username: "143304545@N08"
+title: Mike Tsai
+subtitle: Cheng-Yu (Mike) Tsai is a prospective PhD student in EE/CS, interested in computer architecture.
 
 #for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
 
