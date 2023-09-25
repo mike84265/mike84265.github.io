@@ -12,11 +12,9 @@ urls:
       url: /research/
     - text: CV
       url: /files/mike_tsai_cv.pdf
-    - text: Transcript
-      url: /files/mike_tsai_transcript.pdf
 
 title: Mike Tsai
-subtitle: Cheng-Yu (Mike) Tsai is a prospective PhD student in EE/CS, interested in computer architecture.
+# subtitle: Cheng-Yu (Mike) Tsai is a prospective PhD student in EE/CS, interested in computer architecture.
 
 #for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
 
@@ -161,6 +159,7 @@ exclude:
   - assets/bower_components/lightgallery/test/lightgallery.html
   - assets/bower_components/masonry-layout/README.md
   - assets/bower_components/imagesloaded/README.md
+  - _posts
   - run.sh
 
 

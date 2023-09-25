@@ -1,5 +1,8 @@
-- name: Home
-  link: /
-
 - name: About
-  link: /about.html
+  url: /
+
+- name: Research
+  url: /research/
+
+- name: CV
+  url: /files/mike_tsai_cv.pdf

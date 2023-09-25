@@ -3,7 +3,8 @@ layout: default
 ---
   <div id="author_projects" class="card">
   <h1 class="card-title">Previous Projects</h1><br />
-  {%for prj in site.data.projects.project_details%} {%if prj.visibility == true%}
+  {%for prj in site.data.projects.project_details%} 
+  {%if prj.visibility == true%}
   <a href="{{prj.url}}">
     <div class="row" id="project-card">
       <div class="col-lg-2 col-mg-3">

@@ -13,3 +13,6 @@ _site/
 .bundle
 .bundle/
 vendor/
+
+# Ignore files produced by upstream but no longer required
+_posts
