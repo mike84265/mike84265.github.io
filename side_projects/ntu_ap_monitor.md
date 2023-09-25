@@ -1,15 +1,17 @@
 ---
 layout: post
-title: 
-affiliation: NTU
+title: Campus-wide Wi-Fi Monitoring and Visualization Framework
+affiliation: NTU CCNet
 summary: A framework for monitoring service quality of APs in the campus
-// thumbnail: /assets/img/NTU-Logo.png
+thumbnail: /assets/img/NTU-Logo.png
+top_figure: 
 keywords: Elastic search, Kibana, SNMP, Data visualization, Wireless network
 usemathjax: true
 visibility: true
-permalink: /research/ntu_ap_monitor.html
+category: side_project
+permalink: /side_projects/ntu_ap_monitor.html
 ---
 
-This page describe the NTU wireless model.
+This page describes the NTU wireless model.
 
 [Link (Chinese only)](https://ccnet.ntu.edu.tw/wireless/)

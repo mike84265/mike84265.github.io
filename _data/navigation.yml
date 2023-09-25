@@ -4,5 +4,9 @@
 - name: Research
   url: /research/
 
+- name: Side Projects
+  url: /side_projects/
+
 - name: CV
   url: /files/mike_tsai_cv.pdf
+
