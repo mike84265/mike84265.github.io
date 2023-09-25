@@ -9,6 +9,7 @@ keywords: Radius, WPA2-Enterprise
 usemathjax: true
 visibility: true
 category: side_project
+period: Sep '17 - Jul '18
 permalink: /side_projects/radius_server.html
 ---
 

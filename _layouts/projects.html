@@ -12,10 +12,16 @@ layout: default
     </div>
     <div class="col-lg-10 col-mg-9 center">
       <h4 class="experience-title">{{ prj.title }}</h4>
-      <h6 class="experience-info">{{ prj.affiliation}}</h6>
+      <h6 class="experience-info">
+        {{ prj.affiliation}}
+        {%if prj.period %}
+          , {{prj.period}}
+        {%endif%}
+      </h6>
       <p class="experience-desc">{{ prj.summary }}</p>
     </div>
   </div>
 </a>
+<br>
 {%endif%} {%endif%} {%endfor%}
 </div>

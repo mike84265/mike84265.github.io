@@ -9,6 +9,7 @@ keywords: DSPF, delay, graph theory, LDE, standard cells, EDA, transistors
 usemathjax: true
 visibility: true
 category: research
+period: Jun '21 - Jul '22
 permalink: /research/delay_calculator.html
 ---
 
