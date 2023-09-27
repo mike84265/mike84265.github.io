@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Standard Cell Delay Calculator
-affiliation: TSMC
+affiliation: Design and Techonology Platform, TSMC
 summary: A fast propagation delay calculator for standard cells
 thumbnail: /assets/img/TSMC-Logo.png
 top_figure: 
@@ -9,7 +9,7 @@ keywords: DSPF, delay, graph theory, LDE, standard cells, EDA, transistors
 usemathjax: true
 visibility: true
 category: research
-period: Jun '21 - Jul '22
+period: Jun '22 - Jul '23
 permalink: /research/delay_calculator.html
 ---
 

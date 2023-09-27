@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Campus-wide Wi-Fi Monitoring and Visualization Framework
-affiliation: NTU CCNet
+title: "VisQWL: Visualization framework for Quality of WireLess service"
+affiliation: Division of Network Management, Computer and Information Networking Center, NTU 
 summary: A framework for monitoring service quality of APs in the campus
 thumbnail: /assets/img/NTU-Logo.png
-top_figure: 
-keywords: Elastic search, Kibana, SNMP, Data visualization, Wireless network
+top_figure: /assets/img/VisQWL.png
+keywords: Elasticsearch, Kibana, SNMP, Data visualization, Wireless network, Openstreetmap
 usemathjax: true
 visibility: true
 category: side_project

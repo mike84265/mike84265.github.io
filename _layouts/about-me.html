@@ -16,6 +16,7 @@ layout: default
         <a
           class="social-link"
           href="http://twitter.com/{{ site.data.about.twitter_username }}"
+          target="_blank" rel="noopener noreferror"
         >
           <i class="fab fa-twitter"></i>
         </a>
@@ -23,6 +24,7 @@ layout: default
         <a
           class="social-link"
           href="http://facebook.com/{{ site.data.about.facebook_username }}"
+          target="_blank" rel="noopener noreferror"
         >
           <i class="fab fa-facebook-f"></i>
         </a>
@@ -30,6 +32,7 @@ layout: default
         <a
           class="social-link"
           href="http://instagram.com/{{ site.data.about.instagram_username }}"
+          target="_blank" rel="noopener noreferror"
         >
           <i class="fab fa-instagram"></i>
         </a>
@@ -37,6 +40,7 @@ layout: default
         <a
           class="social-link"
           href="http://medium.com/@{{ site.data.about.medium_username }}"
+          target="_blank" rel="noopener noreferror"
         >
           <i class="fab fa-medium-m"></i>
         </a>
@@ -44,6 +48,7 @@ layout: default
         <a
           class="social-link"
           href="http://github.com/{{ site.data.about.github_username }}"
+          target="_blank" rel="noopener noreferror"
         >
           <i class="fab fa-github"></i>
         </a>
@@ -51,6 +56,7 @@ layout: default
         <a
           class="social-link"
           href="http://behance.net/{{ site.data.about.behance_username }}"
+          target="_blank" rel="noopener noreferror"
         >
           <i class="fab fa-behance"></i>
         </a>
@@ -58,17 +64,21 @@ layout: default
         <a
           class="social-link"
           href="http://linkedin.com/in/{{ site.data.about.linkedin_username }}"
+          target="_blank" rel="noopener noreferror"
         >
           <i class="fab fa-linkedin-in"></i>
         </a>
         {% endif %} {% if site.data.about.telegram_username %}
-        <a class="social-link" href="http://t.me/{{ site.data.about.telegram_username }}">
+        <a class="social-link" href="http://t.me/{{ site.data.about.telegram_username }}"
+          target="_blank" rel="noopener noreferror"
+        >
           <i class="fab fa-telegram-plane"></i>
         </a>
         {% endif %} {% if site.data.about.dribbble_username %}
         <a
           class="social-link"
           href="https://dribbble.com/{{ site.data.about.dribbble_username }}"
+          target="_blank" rel="noopener noreferror"
         >
           <i class="fab fa-dribbble"></i>
         </a>
@@ -76,6 +86,7 @@ layout: default
         <a
           class="social-link"
           href="https://www.flickr.com/photos/{{ site.data.about.flickr_username }}/albums"
+          target="_blank" rel="noopener noreferror"
         >
           <i class="fab fa-flickr"></i>
         </a>
@@ -83,11 +94,16 @@ layout: default
       </p>
 
       {% if site.data.about.location %}
-      <h6><a href="https://www.google.com/maps/search/?api=1&query={{ site.data.about.location }}" class="social-link"><i class="fas fa-map-marker-alt"></i> {{ site.data.about.location }}</a></h6>
+      <h6><a href="https://www.google.com/maps/search/?api=1&query={{ site.data.about.location }}" class="social-link"
+          target="_blank" rel="noopener noreferror"
+      ><i class="fas fa-map-marker-alt"></i> {{ site.data.about.location }}</a></h6>
       {% endif %} {% if site.data.about.email %}
-      <h6><a href="mailto:{{ site.data.about.email }}"><i class="fas fa-envelope" class="social-link"></i> {{ site.data.about.email }}</a></h6>
+          
+      <h6><a href="mailto:{{ site.data.about.email }}" target="_blank" rel="noopener noreferror">
+      <i class="fas fa-envelope" class="social-link"></i> {{ site.data.about.email }}</a></h6>
       {% endif %} {% if site.data.about.website_url %}
-      <h6><a href="{{ site.data.about.website_url }}"><i class="fas fa-link" class="social-link"></i> {{ site.data.about.website_url }}</a></h6>
+      <h6><a href="{{ site.data.about.website_url }}" target="_blank" rel="noopener noreferror">
+      <i class="fas fa-link" class="social-link"></i> {{ site.data.about.website_url }}</a></h6>
       {% endif %}
     </div>
 
@@ -160,7 +176,7 @@ layout: default
           />
         </div>
         <div class="col-md-8 col-sm-8 col-xs-8">
-          <h4 class="experience-info"><a href="{{exp.company_url}}">{{ exp.company_name}}</a></h6>
+          <h4 class="experience-info"><a href="{{exp.company_url}}" target="_blank" rel="noreferror noopener">{{ exp.company_name}}</a></h6>
           <h6 class="experience-title">{{ exp.designation }}</h4>
           <p class="experience-desc">{{ exp.description }}<br>{{exp.period}}</p>
         </div>
@@ -181,7 +197,7 @@ layout: default
           />
         </div>
         <div class="col-md-8 col-sm-8 col-xs-8">
-          <h4 class="experience-info"><a href="{{detail.college_url}}">{{detail.college_name}}</a></h6>
+          <h4 class="experience-info"><a href="{{detail.college_url}}" target="_blank" rel="noreferror noopener">{{detail.college_name}}</a></h6>
           <h6 class="experience-title">{{detail.college_degree }}</h4>
           <p class="experience-desc">{{detail.description}}<br>{{detail.period}}</p>
         </div>

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Radius & Log Server for Network Administration
+title: Radius & Log Server for Mid-scale Shared Network Administration
 affiliation: NTU PA Team
 summary: A self-hosted radius server to enable WPA2-Enterprise Wi-Fi for enhanced security and ease of management
 thumbnail: /assets/img/NTU-Logo.png
