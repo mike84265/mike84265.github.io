@@ -2,7 +2,7 @@
 layout: post
 title: "VisQWL: Visualization framework for Quality of WireLess service"
 affiliation: Division of Network Management, Computer and Information Networking Center, NTU 
-summary: A framework for monitoring service quality of APs in the campus
+summary: A framework for monitoring quality of service of APs in the campus
 thumbnail: /assets/img/NTU-Logo.png
 top_figure: /assets/img/VisQWL.png
 keywords: Elasticsearch, Kibana, SNMP, Data visualization, Wireless network, Openstreetmap

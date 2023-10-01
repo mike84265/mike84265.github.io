@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Analytical Model for Cache
+title: A Performance Analytical Model for DNN Training with Focus on Memory Subsystem
 affiliation: NTU CSIE
 summary: An analytical model for estimating tradeoffs between cache capacity and memory bandwidth with focus on DNN training
 thumbnail: /assets/img/NTU-Logo.png

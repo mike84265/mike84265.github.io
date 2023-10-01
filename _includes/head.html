@@ -1,8 +1,8 @@
 <head>
   <meta charset="utf-8" />
   <title>
-    {% if {page.title %}{{ page.title }} - {{site.title}}
-    {% elsif {site.subtitle%} %} {{ site.title }} - {{ site.subtitle }}
+    {% if {{page.title}} %}{{ page.title }} - {{site.title}}
+    {% elsif {{site.subtitle}} %} {{ site.title }} - {{ site.subtitle }}
     {% else %} {{site.title}}
     {% endif %}
   </title>
