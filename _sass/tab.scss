@@ -1,3 +1,8 @@
 // .current_tab { font-weight: bold; background: var(--newsletter-background-color); }
 .current_tab { font-weight: bold; }
 .other_tab { }
+
+.card-body > hr {
+    height: 1px;
+    border-top: 1px solid #666;
+}
