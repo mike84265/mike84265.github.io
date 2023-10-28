@@ -79,7 +79,7 @@ Unfortunately the raw data is TSMC's confidential and cannot be disclosed.
 ---
 
 # References
-- Lei Yang and C. . -J. R. Shi, "FROSTY: a fast hierarchy extractor for industrial CMOS circuits," ICCAD-2003. International Conference on Computer Aided Design (IEEE Cat. No.03CH37486), San Jose, CA, USA, 2003, pp. 741-746, doi: 10.1109/ICCAD.2003.159759. [[Link]](https://ieeexplore.ieee.org/document/1257891)
+- Lei Yang and C.- J. R. Shi, "FROSTY: a fast hierarchy extractor for industrial CMOS circuits," ICCAD-2003. International Conference on Computer Aided Design (IEEE Cat. No.03CH37486), San Jose, CA, USA, 2003, pp. 741-746, doi: 10.1109/ICCAD.2003.159759. [[Link]](https://ieeexplore.ieee.org/document/1257891)
 - L. T. Pillage and R. A. Rohrer, "Asymptotic waveform evaluation for timing analysis," in IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, vol. 9, no. 4, pp. 352-366, April 1990, doi: 10.1109/43.45867. [[Link]](https://ieeexplore.ieee.org/document/45867)
 - Daniel A. Spielman, "Effective Resistance" in Spectral Graph Theory, Lecture 8, September 24, 2012 [[Link]](https://www.cs.yale.edu/homes/spielman/561/2012/lect08-12.pdf)
 

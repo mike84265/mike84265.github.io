@@ -3,12 +3,12 @@
 # Edit Author details (For multi authors check _data/authors.yml)
 author_logo: profile.jpg
 author: Mike Tsai
-bio: Cheng-Yu (Mike) Tsai is a prospective PhD student in EE/CS, interested in computer architecture.
+bio: "Cheng-Yu (Mike) Tsai is a prospective PhD student having major in EE & CS. Generally, his interest is to accelerate the performance of a system with systematic approach, or to develop tools that help to achieve this goal."
 email: "iijft1111@gmail.com"
 location: Hsinchu, Taiwan 🇹🇼
 website_url: "https://mike84265.github.io"
-typewrite-text: Cheng-Yu (Mike) Tsai is a prospective PhD student in EE/CS, interested in computer architecture.
-hero_cover_img: pinglin.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
+typewrite-text: Cheng-Yu (Mike) Tsai is a prospective PhD student having major in EE & CS. 
+# hero_cover_img: pinglin.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # social links
 twitter_username: MikeTsai986604
