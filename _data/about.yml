@@ -1,9 +1,7 @@
-
-
 # Edit Author details (For multi authors check _data/authors.yml)
 author_logo: profile.jpg
 author: Mike Tsai
-bio: "Cheng-Yu (Mike) Tsai is a prospective PhD student having major in EE & CS. Generally, his interest is to accelerate the performance of a system with systematic approach, or to develop tools that help to achieve this goal."
+bio: "Cheng-Yu (Mike) Tsai is a prospective PhD student having major in EE & CS. Generally, his interest is to accelerate the performance of a system with systematic, explainable approach, or to develop tools that help to achieve this goal. His MS thesis is about a performance analytical model which enables design space exploration (DSE) of cache design. During his work at TSMC, he always actively seeks for chances to leverage parallel programming, sparsity, reducing software stack, etc., to improve the performance of tasks"
 email: "iijft1111@gmail.com"
 location: Hsinchu, Taiwan 🇹🇼
 website_url: "https://mike84265.github.io"
@@ -42,7 +40,7 @@ work_experiences:
     company_logo: NTU-Logo.png
     company_url: https://www.ntu.edu.tw
     designation: Part-time worker
-    description: Division of Network Management, Computer Information & Network Center
+    description: Division of Network Management, Computer & Information Networking Center
     period: "Apr '18 - Jan '21"
     visibility: true
 
@@ -53,7 +51,7 @@ education_details:
     college_url: https://www.ntu.edu.tw
     college_degree: Computer Science and Information Engineering
     description: Master of Science
-    period: "Jan '19 - Jun '21"
+    period: "Feb '19 - Jun '21"
     visibility: true
 
   - college_name: National Taiwan University
@@ -69,5 +67,5 @@ education_details:
     college_url: https://www.ntu.edu.tw
     college_degree: Computer Science and Information Engineering
     description: Bachelor of Science
-    period: "Sep '14 - Jan '19"
+    period: "Sep '15 - Jan '19"
     visibility: true

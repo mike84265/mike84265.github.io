@@ -44,7 +44,7 @@ The algorithm for this part is inspired by [Asymptotic waveform evaluation for t
 
 ## LDE Estimator
 Layout Dependent Effect (LDE) plays a critical role in advanced node.
-The performance of a transistor can vary up to 40% arising from LDE.
+The drain current of a transistor can vary up to 40% arising from LDE.
 
 ## Effective Resistance
 The algorithm for this part is inspired by [Spectral Graph Theory Lecture 8 by Daniel A. Spielman](https://www.cs.yale.edu/homes/spielman/561/2012/lect08-12.pdf)
@@ -60,8 +60,8 @@ And we use a 2-dimensional (input slew and loading capacitance) lookup table to 
 # Difficulties and Lessons Learned
 
 ## Impact of Shared Power/Ground Track
-OD sharing is an ordinary phenomen in standard cells.
-Under this circumstance, two transistors use the same metal track to connected to power/ground.
+OD sharing is an ordinary phenomena in standard cells.
+Under this circumstance, two transistors use the same metal track to drain current from power/ground.
 If the two transistor are both switched on, the IR drop of the metal track is twice larger than those with only one active transistors.
 As a result, the performance of a transistor is correlated with the state of its neighbor if they shares the same metal track to power/ground.
 
