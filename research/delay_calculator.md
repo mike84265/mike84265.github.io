@@ -20,7 +20,7 @@ Disclaimer: The tool is TSMC's proprietary and the author can only disclose part
 
 # Background and Design Consideration
 ## The need for a fast delay estimation tool
-As reinforcement-learning-based method becoming more and more popular, the need for a fast scoring method emerges.
+As reinforcement-learning-based methods become more and more popular, the need for a fast scoring method emerges.
 The time required for evaluating a circuit is directly related to the efficiency of the RL agent.
 
 ## Scope of this work
