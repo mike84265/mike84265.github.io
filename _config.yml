@@ -4,14 +4,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 # url: "https://mike84265.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
-# Navigation
-urls:
-    - text: About
-      url: /
-    - text: Research
-      url: /research/
-    - text: CV
-      url: /files/mike_tsai_cv.pdf
+# Navigation: put at _data/navigation.yml
 
 title: Mike Tsai
 subtitle: A prospective EE/CS PhD student from Taiwan
