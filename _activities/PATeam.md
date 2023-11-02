@@ -9,5 +9,6 @@ top_figure:
 visibility: true
 category: activities
 period: Sep '16 - Jul '20
+date: 2020-07-31
 permalink: /activities/PATeam.html
 ---

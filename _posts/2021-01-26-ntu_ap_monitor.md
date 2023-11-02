@@ -1,1 +1,0 @@
-../side_projects/ntu_ap_monitor.md

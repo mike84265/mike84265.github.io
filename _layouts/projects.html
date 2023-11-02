@@ -3,8 +3,11 @@ layout: default
 ---
 <div id="author_projects" class="card">
 <h1 class="card-title">{{ page.page_title }}</h1><br />
-{%for prj in site.posts%} {% if prj.category == page.target_category %}
-{%if prj.visibility == true%}
+
+{% for col in site.collections %} 
+{% if col.label == page.target_category %}
+{% assign projects = col.docs | sort: "date" | reverse%}
+{% for prj in projects %}
 <a href="{{prj.url}}">
   <div class="row" id="project-card">
     <div class="col-lg-2 col-mg-3">
@@ -23,5 +26,5 @@ layout: default
   </div>
 </a>
 <br>
-{%endif%} {%endif%} {%endfor%}
+{%endfor%} {%endif%} {%endfor%}
 </div>

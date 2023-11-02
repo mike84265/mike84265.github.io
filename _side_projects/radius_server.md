@@ -10,6 +10,7 @@ usemathjax: true
 visibility: true
 category: side_project
 period: Sep '17 - Jul '18
+date: 2018-07-31
 permalink: /side_projects/radius_server.html
 ---
 

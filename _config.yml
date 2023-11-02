@@ -61,9 +61,11 @@ paginate_path: "/blog/page/:num/"
 #     category: '/category/:name/'
 
 collections:
-  products:
+  research:
     output: true
-  authors:
+  side_projects:
+    output: true
+  activities:
     output: true
 
 defaults:

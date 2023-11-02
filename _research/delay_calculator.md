@@ -10,6 +10,7 @@ usemathjax: true
 visibility: true
 category: research
 period: Jun '22 - Jul '23
+date: 2023-07-13
 permalink: /research/delay_calculator.html
 ---
 

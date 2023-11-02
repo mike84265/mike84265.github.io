@@ -12,6 +12,7 @@ top_figure: /activities/EQTeam_backlogo.png
 visibility: true
 category: activities
 period: Jul '15 - Apr '21
+date: 2021-04-01
 permalink: /activities/EQTeam.html
 ---
 
