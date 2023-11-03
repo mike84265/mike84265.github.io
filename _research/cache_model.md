@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Performance Analytical Model for DNN Training with Focus on Memory Subsystem
-affiliation: NTU CSIE
+affiliation: Department of Computer Science and Information Engineering (CSIE), National Taiwan University (NTU)
 summary: An analytical model for estimating tradeoffs between cache capacity and memory bandwidth with focus on DNN training
 thumbnail: /assets/img/NTU-Logo.png
 top_figure: /files/model_architecture.png

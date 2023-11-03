@@ -8,23 +8,31 @@ layout: default
 {% if col.label == page.target_category %}
 {% assign projects = col.docs | sort: "date" | reverse%}
 {% for prj in projects %}
-<a href="{{prj.url}}">
   <div class="row" id="project-card">
     <div class="col-lg-2 col-mg-3">
+<a href="{{prj.url}}">
       <img src="{{prj.thumbnail}}" style="width: 100px; height: 100px;">
     </div>
     <div class="col-lg-10 col-mg-9 center">
       <h4 class="experience-title">{{ prj.title }}</h4>
+</a>
       <h6 class="experience-info">
-        {{ prj.affiliation}}
         {%if prj.period %}
-          | {{prj.period}}
+          <table style="width: 100%;" class="col-lg-9 col-mg-10 col-sg-12">
+          <td>
+            {{prj.affiliation}}
+          </td>
+          <td nowrap class="alnright">
+            {{prj.period}}
+          </td>
+          </table>
+        {%else%}
+        {{ prj.affiliation}}
         {%endif%}
       </h6>
       <p class="experience-desc">{{ prj.summary }}</p>
     </div>
   </div>
-</a>
 <br>
 {%endfor%} {%endif%} {%endfor%}
 </div>

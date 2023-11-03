@@ -69,3 +69,46 @@ education_details:
     description: Bachelor of Science
     period: "Sep '15 - Jan '19"
     visibility: true
+
+research_interests:
+  primary: 
+    - Computer Architecture
+    - Soft/Hardware Co-design
+    - Parallel Programming
+    - Software Performance Analysis and Improvement
+    - Performance Modeling
+  secondary:
+    - Quantum Computing
+    - Scientific Computing
+    - Distributed Computing
+    - Graph Neural Network
+    - EDA
+    - Wireless Network
+    - Silicon Photonics
+    - Emerging Memory
+
+skills:
+  programming:
+    - C/C++
+    - Python
+    - csh/bash
+    - tcl
+    - SKILL (Virtuoso)
+    - spice
+    - MATLAB
+    - perl
+    - verilog
+    - vim
+    - html/js
+  tools:
+    - gdb/lldb
+    - virtuoso
+    - hspice
+    - calibre
+    - elasticsearch
+    - kibana
+  casual:
+    - photography
+    - sound mixing
+    - lighting
+    - badminton

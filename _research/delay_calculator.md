@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Standard Cell Delay Calculator
-affiliation: Design and Techonology Platform, TSMC
+affiliation: Design and Techonology Platform (DTP), TSMC
 summary: A fast propagation delay calculator for standard cells
 thumbnail: /assets/img/TSMC-Logo.png
 top_figure: 

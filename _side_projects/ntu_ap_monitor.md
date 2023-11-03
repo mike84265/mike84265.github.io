@@ -69,6 +69,7 @@ Lastly, the figures are uploaded to some fixed address for the front-end server 
 ---
 
 # Region map
+In addition to the basic line chart for QoS visualization, integration with map is what make this work 
 Despite that Kibana has already provided plenty of useful visualization methods, one of its features, *region map*, still takes some efforts to complete.
 To be more specific, our ultimate goal is to draw some meaningful and easily-readable blocks onto a map, so we must define *the geometry of the shapes* on the map first.
 The geometries, of course, do not come in handy and take some efforts to acquire.

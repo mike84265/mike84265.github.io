@@ -1,20 +1,14 @@
 <h2>Primary</h2>
 <ul>
-<li>Computer architecture</li>
-<li>Software/Hardware co-design</li>
-<li>Parallel programming</li>
-<li>Software performance analysis and improvement</li>
+{% for it in site.data.about.research_interests.primary %}
+<li>{{it}}</li>
+{% endfor %}
 </ul>
 
 <h2>Secondary*</h2>
 <ul>
-<li>Emerging memory</li>
-<li>Quantum computing</li>
-<li>Graph Neural Network</li>
-<li>EDA</li>
-<li>Scienfitic computing</li>
-<li>CAD</li>
-<li>Wireless network</li>
-<li>Silicon Photonics</li>
+{% for it in site.data.about.research_interests.secondary %}
+<li>{{it}}</li>
+{% endfor %}
 </ul>
 <p style='font-size: 80%'>*: interested but not familiar</p>

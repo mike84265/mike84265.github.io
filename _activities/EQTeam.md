@@ -1,13 +1,10 @@
 ---
 layout: post
 title: NTUTAA EQTeam
-# affiliation: NTUTAA EQTeam
-affiliation: EQuipment Team of Tainan Alumni Association at NTU
+affiliation: EQuipment Team of Tainan Alumni Association (TAA) at NTU
 summary: A team in charge of and capable of all the equipment for stage performances of the club
-# thumbnail: /assets/img/EQTeam_logo.png
 thumbnail: /activities/EQTeam_logo.png
 keywords: stage lighting, public address, photography, video recording
-# top_figure: /assets/img/EQTeam_backlogo.png
 top_figure: /activities/EQTeam_backlogo.png
 visibility: true
 category: activities
