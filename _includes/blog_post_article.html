@@ -1,8 +1,8 @@
 <article class="card" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="card-header">
     <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    <h4 class="post-meta">{{ page.summary }}</h4>
-    <p>Key words: {{page.keywords}}</p>
+    {% if page.summary %}<h4 class="post-meta">{{ page.summary }}</h4> {% endif %}
+    <p>{% if page.keywords %} Key words: {{page.keywords}} {% endif %}</p>
     <!--
     <p class="post-summary">
       Posted by : {% if page.author %}
@@ -36,9 +36,9 @@
       src="{{ page.top_figure }}"
       alt="{{ post.title }}"
     />
+    <br />
+    <br />
     {% endif %}
-    <br />
-    <br />
     {{ content }}
     <br />
   </div>

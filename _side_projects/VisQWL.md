@@ -11,7 +11,7 @@ visibility: true
 category: side_project
 period: Apr '18 - Jan '21
 date: 2021-01-31
-permalink: /side_projects/ntu_ap_monitor.html
+permalink: /side_projects/VisQWL.html
 ---
 
 This system is in service at [here](https://ccnet.ntu.edu.tw/wireless/) (Chinese only)
@@ -38,7 +38,7 @@ Instead, the database (ELK machine) is behind a firewall, and the front-end serv
 # System Architecture
 The system is composed of four building blocks: *controllers*, *database*, *snapshot*, and *front-end server*.
 
-![System Architecture](/assets/img/VisQWL.png){:class="card-img"}
+![System Architecture](/side_projects/VisQWL.png){:class="card-img"}
 
 ## APs and Controllers
 Access Points (APs) are connecteed with controllers, and the service information can be retrieved through controllers.

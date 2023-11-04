@@ -95,13 +95,14 @@ skills:
     - tcl
     - SKILL (Virtuoso)
     - spice
+    - LaTeX
     - MATLAB
     - perl
     - verilog
     - vim
     - html/js
   tools:
-    - gdb/lldb
+    - gdb/lldb/pdb
     - virtuoso
     - hspice
     - calibre
@@ -109,6 +110,6 @@ skills:
     - kibana
   casual:
     - photography
+    - badminton
     - sound mixing
     - lighting
-    - badminton
