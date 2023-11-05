@@ -8,7 +8,7 @@ top_figure: /side_projects/WPA2_enterprise_meme.jpg
 keywords: Radius, WPA2-Enterprise
 usemathjax: true
 visibility: true
-category: side_project
+category: side_projects
 period: Sep '17 - Jul '18
 date: 2018-07-31
 permalink: /side_projects/radius_server.html

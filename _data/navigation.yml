@@ -1,15 +1,19 @@
 - name: About
   url: /
+  tag: about
 
 - name: Research
   url: /research/
+  tag: research
 
 - name: Side Projects
   url: /side_projects/
+  tag: side_projects
 
 - name: Activities
   url: /activities/
+  tag: activities
 
 - name: CV
-  url: /cv
-
+  url: /cv/
+  tag: cv

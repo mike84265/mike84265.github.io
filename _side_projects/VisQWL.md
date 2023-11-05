@@ -8,7 +8,7 @@ top_figure: https://ccnet.ntu.edu.tw/wireless/ccnet/pages/wireless_content/uploa
 keywords: Elasticsearch, Kibana, SNMP, Data visualization, Wireless network, Openstreetmap
 usemathjax: true
 visibility: true
-category: side_project
+category: side_projects
 period: Apr '18 - Jan '21
 date: 2021-01-31
 permalink: /side_projects/VisQWL.html

@@ -17,9 +17,9 @@
               {% for i in site.data.navigation %}
               <li class="nav-item" >
                 <a
-                  class="nav-link {%if page.url == i.url%}current_tab{%endif%}"
+                  class="nav-link {%if page.url == i.url or page.category == i.tag %}current_tab{%endif%}"
                   href="{{site.url}}{{site.baseurl}}{{ i.url }}"
-                  >{{ i.name }}
+                  >{{ i.name }} 
                 </a>
               </li>
               {% endfor %}
