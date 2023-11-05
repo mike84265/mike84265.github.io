@@ -21,9 +21,32 @@ Photos and videos speak more than texts in this topic 😊
 ---
 
 # Photography Lecture (Chinese)
-[Handouts](/files/2022handout.pdf)
+## Handout
+<div id="adobe-dc-view" style="height: 800px; width: 100%;"></div>
+<script src="https://acrobatservices.adobe.com/view-sdk/viewer.js"></script>
+<script>
+var hostname = location.hostname;
+const keys = {
+    "localhost": "a7097fbcc1c746559e9025da3105dfd6",
+    "mike-pc.local": "fa7a15b9db904e5dac00d42d954cc7b2",
+    "mike84265.github.io": "3ac483a804fa4af4bf4b63a7f4555214",
+};
 
-[Video](https://www.youtube.com/playlist?list=PLK-VW5cNvtXl76dzaSZDsPgXW9TpJLhuW)
+document.addEventListener("adobe_dc_view_sdk.ready", function(){
+  var adobeDCView = new AdobeDC.View({clientId: keys[hostname], divId: "adobe-dc-view"});
+  adobeDCView.previewFile({
+    content:{ location: { url: "/files/2022handout.pdf"}},
+    metaData:{fileName: "2022handout.pdf"}
+  },
+  {
+    embedMode: "SIZED_CONTAINER",
+    showDownloadPDF: false,
+    showPrintPDF: false,
+  });
+})
+</script>
+
+## [Lecture Video](https://www.youtube.com/playlist?list=PLK-VW5cNvtXl76dzaSZDsPgXW9TpJLhuW)
 <html>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=mo9pIrrOrI5cxmBq&amp;list=PLK-VW5cNvtXl76dzaSZDsPgXW9TpJLhuW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </html>
