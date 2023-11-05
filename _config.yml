@@ -157,6 +157,7 @@ exclude:
   - assets/bower_components/imagesloaded/README.md
   - run.sh
   - commit.md
+  - adobe_api_keys
 
 
 destination: ./build
