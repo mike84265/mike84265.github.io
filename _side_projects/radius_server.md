@@ -54,6 +54,14 @@ Consequently, all the logging record, including user name and the MAC address of
 # Architecture
 I made a [ppt](/files/NTUPA_IT_handover.pdf) to introduce the whole framework from hardware and software perspectives to the upcoming members.
 
+<div id="adobe-dc-view" style="height: 480px; width: 100%;"></div>
+<script src="https://acrobatservices.adobe.com/view-sdk/viewer.js"></script>
+<script>
+const fileUrl = "/files/NTUPA_IT_handover.pdf";
+const fileName = "NTUPA_IT_handover.pdf";
+</script>
+<script src="/assets/js/embed_pdf.js"></script>
+
 ## Windows (Host OS)
 ### DrayTek log software
 This software is only offered in Windows version. Therefore the server's host OS is installed as Windows.

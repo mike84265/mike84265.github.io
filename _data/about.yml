@@ -1,7 +1,7 @@
 # Edit Author details (For multi authors check _data/authors.yml)
 author_logo: profile.jpg
 author: Mike Tsai
-bio: "Cheng-Yu (Mike) Tsai is a prospective PhD student having major in EE & CS. Generally, his interest is to accelerate the performance of a system with systematic, explainable approach, or to develop tools that help to achieve this goal. His MS thesis is about a performance analytical model which enables design space exploration (DSE) of cache design. During his work at TSMC, he always actively seeks for chances to leverage parallel programming, sparsity, reducing software stack, etc., to improve the performance of tasks"
+bio: "Cheng-Yu (Mike) Tsai is a prospective PhD student having major in EE & CS. Generally, his interest is to accelerate the performance of a system with systematic, explainable approach, or to develop tools facilitate this goal. His MS thesis is about a performance analytical model which enables design space exploration (DSE) of cache design and understanding of workload characteristics. During his work at TSMC, he always actively seeks for chances to leverage parallel programming, sparsity, reducing software stack, etc., to improve the performance of tasks"
 email: "iijft1111@gmail.com"
 location: Hsinchu, Taiwan 🇹🇼
 website_url: "https://mike84265.github.io"
@@ -96,18 +96,20 @@ skills:
     - SKILL (Virtuoso)
     - spice
     - LaTeX
-    - MATLAB
-    - perl
-    - verilog
     - vim
+    - MATLAB
+    - verilog
     - html/js
+    - perl
   tools:
-    - gdb/lldb/pdb
-    - virtuoso
-    - hspice
-    - calibre
-    - elasticsearch
-    - kibana
+    - gdb/lldb
+    - Virtuoso
+    - HSPICE
+    - Calibre
+    - StarRC
+    - CustomCompiler
+    - Elasticsearch
+    - Kibana
   casual:
     - "<a href=https://www.flickr.com/photos/mike84265/albums>photography</a>"
     - badminton
