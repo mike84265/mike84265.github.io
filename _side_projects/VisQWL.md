@@ -11,6 +11,7 @@ visibility: true
 category: side_projects
 period: Apr '18 - Jan '21
 date: 2021-01-31
+publish: true
 permalink: /side_projects/VisQWL.html
 ---
 

@@ -13,6 +13,7 @@ document.addEventListener("adobe_dc_view_sdk.ready", function(){
   },
   {
     embedMode: "SIZED_CONTAINER",
+    // defaultViewMode: "FIT_PAGE",
     showDownloadPDF: false,
     showPrintPDF: false,
   });

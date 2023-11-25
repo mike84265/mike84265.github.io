@@ -10,20 +10,24 @@ layout: default
 {% for prj in projects %}
   <div class="row" id="project-card">
     <div class="col-lg-2 col-mg-3">
+{% if prj.publish %}
 <a href="{{prj.url}}">
+{% endif %}
       <img src="{{prj.thumbnail}}" style="width: 100px; height: 100px;">
     </div>
     <div class="col-lg-10 col-mg-9 center">
       <h4 class="experience-title">{{ prj.title }}</h4>
+{% if prj.publish %}
 </a>
+{% endif %}
       <h6 class="experience-info">
         {%if prj.period %}
           <table style="width: 100%;" class="col-lg-9 col-mg-10 col-sg-12">
           <td>
             {{prj.affiliation}}
           </td>
-          <td nowrap class="alnright">
-            {{prj.period}}
+          <td nowrap class="alnright" style="padding: 3px;">
+            <i>{{prj.period}}</i>
           </td>
           </table>
         {%else%}

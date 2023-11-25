@@ -11,6 +11,7 @@ visibility: true
 category: side_projects
 period: Sep '17 - Jul '18
 date: 2018-07-31
+publish: true
 permalink: /side_projects/radius_server.html
 ---
 
@@ -52,9 +53,9 @@ Consequently, all the logging record, including user name and the MAC address of
 *Log records of the radius server. Useful information includes timestamp, username, device MAC, and accessed SSID.*
 
 # Architecture
-I made a [ppt](/files/NTUPA_IT_handover.pdf) to introduce the whole framework from hardware and software perspectives to the upcoming members.
+I made a ppt to introduce the whole framework from hardware and software perspectives to the upcoming members.
 
-<div id="adobe-dc-view" style="height: 480px; width: 100%;"></div>
+<div id="adobe-dc-view" class="embed-slides"></div>
 <script src="https://acrobatservices.adobe.com/view-sdk/viewer.js"></script>
 <script>
 const fileUrl = "/files/NTUPA_IT_handover.pdf";

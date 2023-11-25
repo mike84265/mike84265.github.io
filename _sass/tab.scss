@@ -11,3 +11,64 @@
     text-align: right; 
     margin-right: 1em;
 }
+
+@media (max-width: 800px) {
+    .embed-slides {
+        width: 100%;
+        aspect-ratio: 16 / 16;
+    }
+    .embed-doc {
+        width: 100%;
+        aspect-ratio: 3 / 4;
+    }
+    .embed-video {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+    }
+}
+
+@media (min-width: 801px) and (max-width: 960px) {
+    .embed-slides {
+        width: 100%;
+        aspect-ratio: 16 / 13;
+    }
+    .embed-doc {
+        width: 100%;
+        aspect-ratio: 3 / 4;
+    }
+    .embed-video {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+    }
+}
+
+@media only screen and (min-width: 961px) {
+    .embed-slides {
+        width: 100%;
+        aspect-ratio: 16 / 10;
+    }
+    .embed-doc {
+        height: 800px;
+        aspect-ratio: 3 / 4;
+    }
+    .embed-video {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 961px) 
+{
+    .embed-slides {
+        width: 100%;
+        aspect-ratio: 16 / 12;
+    }
+    .embed-doc {
+        height: 640px;
+        aspect-ratio: 3 / 4;
+    }
+    .embed-video {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+    }
+}

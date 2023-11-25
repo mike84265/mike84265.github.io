@@ -11,6 +11,7 @@ category: research
 visibility: true
 period: Feb '19 - Jun '21
 date: 2021-06-28
+publish: true
 permalink: /research/cache_model.html
 ---
 
