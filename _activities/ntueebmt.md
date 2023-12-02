@@ -6,7 +6,7 @@ summary: A sport team consists of students at NTUEE
 thumbnail: /activities/hao_smash.jpg
 keywords: badminton, NTUEE
 top_figure: /activities/badminton.jpg
-visibility: true
+visible: true
 category: activities
 period: Sep '14 - Jul '21
 date: 2021-01-31

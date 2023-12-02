@@ -7,7 +7,7 @@ thumbnail: /assets/img/NTU-Logo.png
 top_figure: /side_projects/WPA2_enterprise_meme.jpg
 keywords: Radius, WPA2-Enterprise
 usemathjax: true
-visibility: true
+visible: true
 category: side_projects
 period: Sep '17 - Jul '18
 date: 2018-07-31

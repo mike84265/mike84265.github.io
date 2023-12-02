@@ -7,7 +7,7 @@ thumbnail: /assets/img/TSMC-Logo.png
 top_figure: 
 keywords: DSPF, delay, graph theory, LDE, standard cells, EDA, transistors
 usemathjax: true
-visibility: true
+visible: true
 category: research
 period: Jun '22 - Jul '23
 date: 2023-07-13

@@ -7,7 +7,7 @@ thumbnail: /assets/img/NTU-Logo.png
 top_figure: https://ccnet.ntu.edu.tw/wireless/ccnet/pages/wireless_content/upload_imgs/NumUserMap_Main.png
 keywords: Elasticsearch, Kibana, SNMP, Data visualization, Wireless network, Openstreetmap
 usemathjax: true
-visibility: true
+visible: true
 category: side_projects
 period: Apr '18 - Jan '21
 date: 2021-01-31

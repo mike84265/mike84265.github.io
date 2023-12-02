@@ -6,7 +6,7 @@ summary: A team in charge of PA system and stage lighting of stage performances 
 thumbnail: /activities/NTUPA_logo.jpg
 keywords: stage lighting, public address
 top_figure: /activities/X32.jpg
-visibility: true
+visible: true
 category: activities
 period: Sep '16 - Jul '20
 date: 2020-07-31

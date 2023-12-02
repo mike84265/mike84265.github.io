@@ -1,0 +1,22 @@
+var hostname = location.hostname;
+const keys = {
+    "localhost": "a7097fbcc1c746559e9025da3105dfd6",
+    "mike-pc.local": "fa7a15b9db904e5dac00d42d954cc7b2",
+    "mike84265.github.io": "3ac483a804fa4af4bf4b63a7f4555214",
+};
+
+for (let i=0; i<fileUrl.length; i++) {
+  document.addEventListener("adobe_dc_view_sdk.ready", function(){
+    var adobeDCView = new AdobeDC.View({clientId: keys[hostname], divId: divId[i]});
+    adobeDCView.previewFile({
+      content:{ location: { url: fileUrl[i]}},
+      metaData:{fileName: fileName[i]}
+    },
+    {
+      embedMode: "SIZED_CONTAINER",
+      // defaultViewMode: "FIT_PAGE",
+      showDownloadPDF: false,
+      showPrintPDF: false,
+    });
+  })
+}

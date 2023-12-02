@@ -8,7 +8,7 @@ top_figure: /research/model_architecture.png
 keywords: cache, DNN, training, analytical model, memory, bandwidth
 usemathjax: true
 category: research
-visibility: true
+visible: true
 period: Feb '19 - Jun '21
 date: 2021-06-28
 publish: true

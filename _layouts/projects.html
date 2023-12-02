@@ -7,7 +7,7 @@ layout: default
 {% for col in site.collections %} 
 {% if col.label == page.target_category %}
 {% assign projects = col.docs | sort: "date" | reverse%}
-{% for prj in projects %}
+{% for prj in projects %} {% if prj.visible %}
   <div class="row" id="project-card">
     <div class="col-lg-2 col-mg-3">
 {% if prj.publish %}
@@ -38,5 +38,5 @@ layout: default
     </div>
   </div>
 <br>
-{%endfor%} {%endif%} {%endfor%}
+{% endif %} {%endfor%} {%endif%} {%endfor%}
 </div>
