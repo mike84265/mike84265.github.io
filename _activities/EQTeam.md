@@ -14,22 +14,10 @@ publish: true
 permalink: /activities/EQTeam.html
 ---
 
-- Table of contents
-{:toc}
+This part of experience is too broad to be covered in a page and is thus divided into several subsections.
 
-Photos and videos speak more than texts in this topic 😊
 
----
-
-# Photography 
-[Photography subpage](./EQTeam/photography.html)
-
----
-
-# Lighting
-[Lighting subpage](./EQTeam/lighting.html)
-
----
-
-# Training
-[Training subpage](./EQTeam/training.html)
+- [Photography](./EQTeam/photography.html): includes the photos I have taken for this team/club.
+- [Video Recording](./EQTeam/video.html): includes the videos I was in charge of (recording or editing)
+- [Lighting](./EQTeam/lighting.html): includes the lighting demonstration photos and videos.
+- [Training](./EQTeam/training.html): includes the lectures and handouts I designed to train the newcomers.

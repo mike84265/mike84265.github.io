@@ -26,6 +26,7 @@ permalink: /activities/EQTeam/lighting.html
 ## [Lighting Practice](https://www.youtube.com/watch?v=O0jfmKaKqNo)
 <html>
 <iframe class="embed-video" src="https://www.youtube.com/embed/O0jfmKaKqNo?si=OHGh4CwppcQOLPxE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe class="embed-video" src="https://www.youtube.com/embed/lKnj4QKa3LI?si=LSJJGSLRwn-FHees" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </html>
 
 ## [Lighting in action](https://www.youtube.com/watch?v=a1UocV2OfyU)
