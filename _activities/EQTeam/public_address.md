@@ -5,7 +5,7 @@ affiliation: Public Address (Sound Mixing) at Equipment Team of NTUTAA
 summary: Public address (sound mixing) at EQTeam
 thumbnail: /activities/EQTeam_logo.png
 keywords: public address, PA, sound mixing
-top_figure: 
+top_figure: ../X32.jpg
 visibility: false
 category: activities
 period: Jul '15 - Apr '21

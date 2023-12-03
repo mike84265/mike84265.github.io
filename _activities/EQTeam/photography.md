@@ -17,7 +17,20 @@ permalink: /activities/EQTeam/photography.html
 - Table of contents
 {:toc}
 
-Photos and videos speak more than texts in this topic 😊
+Photos speak more than texts in this topic 😊
+
+---
+
+# Light Trails
+
+## 2020 Spring
+![2020 Trail](./2020_trail.JPG){:class="card-img"}
+
+## 2019 Summer
+![2019 Trail](./2019_trail.JPG){:class="card-img"}
+
+## 2018 Summer
+![2018 Trail](./2018_trail.JPG){:class="card-img"}
 
 ---
 
