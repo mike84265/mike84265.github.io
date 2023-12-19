@@ -15,6 +15,10 @@ publish: true
 permalink: /research/cache_model.html
 ---
 
+[Thesis link](/files/mike_tsai_ms_thesis.pdf)
+
+---
+
 - toc 
 {:toc}
 
@@ -50,9 +54,3 @@ This work is proposed to resolve the aforementioned issues.
 This work mainly focuses on inter-layer reuse, which includes *adjacent-layer reuse*, *block-scale reuse*, and *forward-backward reuse*.
 
 
-# Methodology
-
-
-
----
-[Thesis link](/files/mike_tsai_ms_thesis.pdf)
