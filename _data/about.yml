@@ -2,7 +2,7 @@
 author_logo: profile.jpg
 author: Mike Tsai
 bio: "Cheng-Yu (Mike) Tsai is a prospective PhD student having major in EE & CS. Generally, his interest is to accelerate the performance of a system with systematic, explainable approach, or to develop tools facilitate this goal. His MS thesis is about a performance analytical model which enables design space exploration (DSE) of cache design and understanding of workload characteristics. During his work at TSMC, he always actively seeks for chances to leverage parallel programming, sparsity, reducing software stack, etc., to improve the performance of tasks"
-email: "iijft1111@gmail.com"
+email: "cytsai1001@gmail.com"
 location: Hsinchu, Taiwan 🇹🇼
 website_url: "https://mike84265.github.io"
 typewrite-text: Cheng-Yu (Mike) Tsai is a prospective PhD student having major in EE & CS. 
@@ -27,7 +27,7 @@ work_experiences:
     company_url: https://tsmc.com/
     designation: Engineer (RDSS)
     description: Custom Design Flow Development Department, DTP, R&D
-    period: "Jul '21 - present"
+    period: "Jul '21 - Jul '24"
     visibility: true
   - company_name: National Taiwan University
     company_logo: NTU-Logo.png
@@ -46,27 +46,37 @@ work_experiences:
 
 # Education
 education_details:
+  - college_name: Georgia Institute of Technology
+    college_logo: GT-Logo.png
+    college_url: https://gatech.edu
+    department: Electrical & Computer Engineering
+    degree: Doctor of Philosophy (Ph.D.)
+    description: "Georgia Tech Computer-Aided Design (GTCAD) Lab, advisor: Sung-Kyu Lim"
+    period: "Starting from Aug. '24"
+    visibility: true
+
   - college_name: National Taiwan University
     college_logo: NTU-Logo.png
     college_url: https://www.ntu.edu.tw
-    college_degree: Computer Science and Information Engineering
-    description: Master of Science
+    department: Computer Science and Information Engineering
+    degree: Master of Science
+    description: "Embedded Computing Lab (ECLab), advisor: Chia-Lin Yang"
     period: "Feb '19 - Jun '21"
     visibility: true
 
   - college_name: National Taiwan University
     college_logo: NTU-Logo.png
     college_url: https://www.ntu.edu.tw
-    college_degree: Electrical Engineering
-    description: Bachelor of Science in Engineering
+    department: Electrical Engineering
+    degree: Bachelor of Science in Engineering
     period: "Sep '14 - Jan '19"
     visibility: true
 
   - college_name: National Taiwan University
     college_logo: NTU-Logo.png
     college_url: https://www.ntu.edu.tw
-    college_degree: Computer Science and Information Engineering
-    description: Bachelor of Science
+    department: Computer Science and Information Engineering
+    degree: Bachelor of Science
     period: "Sep '15 - Jan '19"
     visibility: true
 
