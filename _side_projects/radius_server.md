@@ -19,7 +19,7 @@ permalink: /side_projects/radius_server.html
 {:toc}
 
 # Background
-Per the network administration at NTU, a student club is often assigned with a mere fixed public IP.
+Per the network administration policy at NTU, a student club is often assigned with a mere fixed public IP.
 And it is often the case that a club has one or more APs to share the network wirelessly.
 However, the scarce public IP, or in general, the whole network in NTU, is administrated by TANet (Taiwan Academic Network), and is prohibited against malicious actions. 
 Any suspicious action patterns resembling zombie, mining, DoS, and so on will cause this IP to be banned due to security concerns.

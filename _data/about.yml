@@ -5,7 +5,8 @@ bio: "Cheng-Yu (Mike) Tsai is a prospective PhD student having major in EE & CS.
 email: "cytsai1001@gmail.com"
 location: Hsinchu, Taiwan 🇹🇼
 website_url: "https://mike84265.github.io"
-typewrite-text: Cheng-Yu (Mike) Tsai is a prospective PhD student having major in EE & CS. 
+# typewrite-text: Cheng-Yu (Mike) Tsai is a prospective PhD student having major in EE & CS. 
+typewrite-text: A PhD student at GATech ECE
 # hero_cover_img: pinglin.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # social links
@@ -51,7 +52,7 @@ education_details:
     college_url: https://gatech.edu
     department: Electrical & Computer Engineering
     degree: Doctor of Philosophy (Ph.D.)
-    description: "Georgia Tech Computer-Aided Design (GTCAD) Lab, advisor: Sung-Kyu Lim"
+    description: "Georgia Tech Computer-Aided Design (GTCAD) Lab; advisor: Sung-Kyu Lim"
     period: "Starting from Aug. '24"
     visibility: true
 
@@ -60,7 +61,7 @@ education_details:
     college_url: https://www.ntu.edu.tw
     department: Computer Science and Information Engineering
     degree: Master of Science
-    description: "Embedded Computing Lab (ECLab), advisor: Chia-Lin Yang"
+    description: "Embedded Computing Lab (ECLab); advisor: Chia-Lin Yang"
     period: "Feb '19 - Jun '21"
     visibility: true
 
@@ -84,6 +85,7 @@ research_interests:
   primary: 
     - Computer Architecture
     - Soft/Hardware Co-design
+    - Electronic Design Automation
     - Parallel Programming
     - Software Performance Analysis and Improvement
     - Performance Modeling
@@ -92,7 +94,6 @@ research_interests:
     - Scientific Computing
     - Distributed Computing
     - Graph Neural Network
-    - EDA
     - Wireless Network
     - Silicon Photonics
     - Emerging Memory
