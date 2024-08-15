@@ -71,7 +71,7 @@ The algorithm for this part is inspired by [Spectral Graph Theory Lecture 8 by D
 Because parasitic resistors are not considered in pre-K, which assumes pre-layout simulation, 
 yet they substantially affects the performance of the stacked transistors, it is crucial to combine the effect of parasitic resistors into the modules above.
 
-I use the effective resistance algorithm introduced in Daniel's handout to compute the effective resistance between source/drain terminals in a CCC, and use linear calibration to calibrate the pre-layout effective current into its post-layout counterpart.
+I use the effective resistance algorithm introduced in Dr. Spielman's handout to compute the effective resistance between source/drain terminals in a CCC, and use linear calibration to calibrate the pre-layout effective current into its post-layout counterpart.
 This step is computationally light-weighted yet effective to take the influence of parasitic resistors into consideration.
 
 ## RC Delay Calculator (PRIMA)
