@@ -1,9 +1,9 @@
 # Edit Author details (For multi authors check _data/authors.yml)
 author_logo: profile.jpg
 author: Mike Tsai
-bio: "Cheng-Yu (Mike) Tsai is a prospective PhD student having major in EE & CS. Generally, his interest is to accelerate the performance of a system with systematic, explainable approach, or to develop tools facilitate this goal. His MS thesis is about a performance analytical model which enables design space exploration (DSE) of cache design and understanding of workload characteristics. During his work at TSMC, he always actively seeks for chances to leverage parallel programming, sparsity, reducing software stack, etc., to improve the performance of tasks"
-email: "cytsai1001@gmail.com"
-location: Hsinchu, Taiwan 🇹🇼
+bio: "Cheng-Yu (Mike) Tsai is a first-year PhD student at Georgia Tech ECE. Generally, his interest is to accelerate the performance of a system with systematic, explainable approach, or to develop tools facilitate this goal. His MS thesis is about a performance analytical model which enables design space exploration (DSE) of cache design and understanding of workload characteristics. During his work at TSMC, he always actively seeks for chances to leverage parallel programming, sparsity, reducing software stack, etc., to improve the performance of tasks"
+email: "cytsai@gatech.edu"
+location: Atlanta, Georgia, USA
 website_url: "https://mike84265.github.io"
 # typewrite-text: Cheng-Yu (Mike) Tsai is a prospective PhD student having major in EE & CS. 
 typewrite-text: A PhD student at GATech ECE
@@ -53,7 +53,7 @@ education_details:
     department: Electrical & Computer Engineering
     degree: Doctor of Philosophy (Ph.D.)
     description: "Georgia Tech Computer-Aided Design (GTCAD) Lab; advisor: Sung-Kyu Lim"
-    period: "Starting from Aug. '24"
+    period: "Aug '24 - current"
     visibility: true
 
   - college_name: National Taiwan University
@@ -90,13 +90,11 @@ research_interests:
     - Software Performance Analysis and Improvement
     - Performance Modeling
   secondary:
-    - Quantum Computing
     - Scientific Computing
     - Distributed Computing
-    - Graph Neural Network
     - Wireless Network
-    - Silicon Photonics
     - Emerging Memory
+    - Quantum Computing
 
 skills:
   programming:
