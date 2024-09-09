@@ -1,7 +1,8 @@
 # Edit Author details (For multi authors check _data/authors.yml)
 author_logo: profile.jpg
 author: Mike Tsai
-bio: "Cheng-Yu (Mike) Tsai is a first-year PhD student at Georgia Tech ECE. Generally, his interest is to accelerate the performance of a system with systematic, explainable approach, or to develop tools facilitate this goal. His MS thesis is about a performance analytical model which enables design space exploration (DSE) of cache design and understanding of workload characteristics. During his work at TSMC, he always actively seeks for chances to leverage parallel programming, sparsity, reducing software stack, etc., to improve the performance of tasks"
+# bio: "Cheng-Yu (Mike) Tsai is a first-year PhD student at Georgia Tech ECE. Generally, his interest is to accelerate the performance of a system with systematic, explainable approach, or to develop tools facilitate this goal. His MS thesis is about a performance analytical model which enables design space exploration (DSE) of cache design and understanding of workload characteristics. During his work at TSMC, he always actively seeks for chances to leverage parallel programming, sparsity, reducing software stack, etc., to improve the performance of tasks"
+bio: "Cheng-Yu (Mike) Tsai is a first-year PhD student at GTCAD Lab supervised by Dr. Sung-Kyu Lim in Georgia Tech ECE. Before joining the GTCAD lab, he worked at TSMC's custom design flow team for three years, where the mission was to develop tools embedded in PDK or cooperate with EDA companies for new features to facilitate customers' design efforts. He earned a master's degree in computer science at National Taiwan University (NTU) and double majored in electrical engineering and computer science at NTU for his bachelor's degree. His MS thesis is about a performance analytical model enabling design space exploration (DSE) of cache design and understanding workload characteristics."
 email: "cytsai@gatech.edu"
 location: Atlanta, Georgia, USA
 website_url: "https://mike84265.github.io"
@@ -50,25 +51,25 @@ education_details:
   - college_name: Georgia Institute of Technology
     college_logo: GT-Logo.png
     college_url: https://gatech.edu
-    department: Electrical & Computer Engineering
+    department: "<a class=plain href=https://ece.gatech.edu/ target=\"_blank\" rel=\"noopener noreferrer\">Electrical & Computer Engineering</a>"
     degree: Doctor of Philosophy (Ph.D.)
-    description: "Georgia Tech Computer-Aided Design (GTCAD) Lab; advisor: Sung-Kyu Lim"
+    description: "<a class=plain href=https://gtcad.gatech.edu target=\"_blank\" rel=\"noopener noreferrer\">Georgia Tech Computer-Aided Design (GTCAD) Lab</a>; advisor: <a class=plain href=https://limsk.ece.gatech.edu/ target=\"_blank\" rel=\"noopener noreferrer\">Sung-Kyu Lim</a>"
     period: "Aug '24 - current"
     visibility: true
 
   - college_name: National Taiwan University
     college_logo: NTU-Logo.png
     college_url: https://www.ntu.edu.tw
-    department: Computer Science and Information Engineering
+    department: "<a class=plain href=https://csie.ntu.edu.tw/ target=\"_blank\" rel=\"noopener noreferrer\">Computer Science and Information Engineering</a>"
     degree: Master of Science
-    description: "Embedded Computing Lab (ECLab); advisor: Chia-Lin Yang"
+    description: "Embedded Computing Lab (ECLab); advisor: <a class=plain href=https://www.csie.ntu.edu.tw/~yangc/ target=\"_blank\" rel=\"noopener noreferrer\">Chia-Lin Yang</a>"
     period: "Feb '19 - Jun '21"
     visibility: true
 
   - college_name: National Taiwan University
     college_logo: NTU-Logo.png
     college_url: https://www.ntu.edu.tw
-    department: Electrical Engineering
+    department: "<a class=plain href=https://ee.ntu.edu.tw/ target=\"_blank\" rel=\"noopener noreferrer\">Electrical Engineering</a>"
     degree: Bachelor of Science in Engineering
     period: "Sep '14 - Jan '19"
     visibility: true
@@ -76,16 +77,16 @@ education_details:
   - college_name: National Taiwan University
     college_logo: NTU-Logo.png
     college_url: https://www.ntu.edu.tw
-    department: Computer Science and Information Engineering
+    department: "<a class=plain href=https://csie.ntu.edu.tw/ target=\"_blank\" rel=\"noopener noreferrer\">Computer Science and Information Engineering</a>"
     degree: Bachelor of Science
     period: "Sep '15 - Jan '19"
     visibility: true
 
 research_interests:
   primary: 
-    - Computer Architecture
-    - Soft/Hardware Co-design
     - Electronic Design Automation
+    - Soft/Hardware Co-design
+    - Computer Architecture
     - Parallel Programming
     - Software Performance Analysis and Improvement
     - Performance Modeling
@@ -94,7 +95,6 @@ research_interests:
     - Distributed Computing
     - Wireless Network
     - Emerging Memory
-    - Quantum Computing
 
 skills:
   programming:
@@ -120,7 +120,7 @@ skills:
     - Elasticsearch
     - Kibana
   casual:
-    - "<a href=https://www.flickr.com/photos/mike84265/albums>photography</a>"
+    - "<a href=https://www.flickr.com/photos/mike84265/albums target=\"_blank\" rel=\"noopener noreferrer\">photography</a>"
     - badminton
     - sound mixing
     - lighting

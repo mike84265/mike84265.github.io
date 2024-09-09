@@ -204,6 +204,15 @@ h1, h2, h3, h4, h5, h6 {
 a{
     color: var(--link-color) !important;
 }
+
+.plain {
+    color: var(--main-text-color) !important;
+}
+
+.plain:hover {
+    color: var(--main-text-color) !important;
+}
+
 /* Navigation Header */
 header {
     background-color: var(--main-background-color);
