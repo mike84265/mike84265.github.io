@@ -1,0 +1,38 @@
+%-------------------------------------------------------------------------------
+%	SECTION TITLE
+%-------------------------------------------------------------------------------
+\cvsection{Research Projects}
+
+
+%-------------------------------------------------------------------------------
+%	CONTENT
+%-------------------------------------------------------------------------------
+\begin{cventries}
+    \cvproject
+    {A Performance Analytical Model for DNN Training with Focus on Memory Subsystem}
+    {MS Thesis}
+    {Exploring the tradeoffs between cache capacity and memory bandwidth in DNN workloads}
+    {Feb '19 - Jun '21}
+    {
+        \begin{cvitems}
+        % \item The first work to model data reuse across DNN layers in DNN workloads for 100+ MB cache % (AMD has products with this scale already).
+        \item Devised a software-controlled cache scheme model data reuse across DNN layers in DNN workloads.
+        % \item Devised a novel software-controlled cache analytical scheme to approximate an optimal hardware design so that the architecture problem can be decoupled from low-level design issues.
+        \item Analyzed tradeoffs between cache capacity and bandwidth in ResNet, MobileNet, GNMT, and Transformer and drew some insights from the experiment results.
+        \end{cvitems}
+    }
+
+    \cvproject
+    {Standard Cell Delay Calculator}
+    {Internal Project at TSMC}
+    {A model to swiftly estimate the delay of a post-layout standard cell (MOS + parasitic R/C)}
+    {Jun '22 - Jul '23}
+    {
+        \begin{cvitems}
+        \item More than 10x faster than SPICE transient simulation, 100x faster than bi-section setup time simulation, while maintaining more than 0.9 of correlation coefficient and sub-ps accuracy with SPICE.
+        \item Integrated graph theory, transient pre-characterization, layout dependent effect (LDE) estimation, asymptotic waveform evaluation, calculation on RC network and simplification, etc., into a single program to estimate propagation delay from a detailed standard parasitic format (DSPF) file.
+        % \item Leveraged parallel programming, scientific computing, inter-process communication and binding between C++ and Python, and various techniques to assure optimal efficiency and ease of use.
+        % \item Independently inquiring into influential factors while striking a balance between the model's efficiency and accuracy.
+        \end{cvitems}
+    }
+\end{cventries}
