@@ -49,7 +49,8 @@ work_experiences:
 # Education
 education_details:
   - college_name: Georgia Institute of Technology
-    college_logo: GT-Logo.png
+    # college_logo: GT-Logo.png
+    college_logo: GTVertical_RGB.png
     college_url: https://gatech.edu
     department: "<a class=plain href=https://ece.gatech.edu/ target=\"_blank\" rel=\"noopener noreferrer\">Electrical & Computer Engineering</a>"
     degree: Doctor of Philosophy (Ph.D.)
