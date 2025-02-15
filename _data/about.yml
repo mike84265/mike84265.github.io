@@ -86,15 +86,15 @@ education_details:
 research_interests:
   primary: 
     - Electronic Design Automation
-    - Soft/Hardware Co-design
     - Computer Architecture
+    - Soft/Hardware Co-design
     - Parallel Programming
     - Software Performance Analysis and Improvement
     - Performance Modeling
   secondary:
-    - Scientific Computing
     - Distributed Computing
     - Wireless Network
+    - Scientific Computing
     - Emerging Memory
 
 skills:
@@ -110,7 +110,6 @@ skills:
     - MATLAB
     - verilog
     - html/js
-    - perl
   tools:
     - gdb/lldb
     - Virtuoso
@@ -118,6 +117,8 @@ skills:
     - Calibre
     - StarRC
     - CustomCompiler
+    - IC Compiler II
+    - IC Validator
     - Elasticsearch
     - Kibana
   casual:

@@ -169,13 +169,14 @@ layout: default
       {% for exp in site.data.about.work_experiences %} {% if exp.visibility == true
       %}
       <div class="row">
-        <div class="col-md-3 col-sm-1 col-xs-1">
+        <div class="col-lg-2 col-md-2 col-sm-3 col-xs-3" style="margin-left: auto; margin-right: auto;">
           <img
             src="{{site.url}}{{site.baseurl}}/assets/img/{{ exp.company_logo }}"
             class="company-logo"
           />
         </div>
-        <div class="col-md-8 col-sm-8 col-xs-8">
+        <div class="clearfix"></div>
+        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-8">
           <h4 class="experience-info"><a href="{{exp.company_url}}" target="_blank" rel="noreferror noopener">{{ exp.company_name}}</a></h6>
           <h6 class="experience-title">{{ exp.designation }}</h4>
           <p class="experience-desc">{{ exp.description }}<br>{{exp.period}}</p>
@@ -190,13 +191,14 @@ layout: default
       {% for detail in site.data.about.education_details %} {% if detail.visibility
       == true %}
       <div class="row">
-        <div class="col-md-3 col-sm-1 col-xs-1">
+        <div class="col-lg-2 col-md-2 col-sm-3 col-xs-3" style="margin-left: auto; margin-right: auto;">
           <img
             src="{{site.url}}{{site.baseurl}}/assets/img/{{ detail.college_logo}}"
             class="company-logo"
           />
         </div>
-        <div class="col-md-8 col-sm-8 col-xs-8">
+        <div class="clearfix"></div>
+        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-8">
           <h4 class="experience-info"><a href="{{detail.college_url}}" target="_blank" rel="noreferror noopener">{{detail.college_name}}</a></h4>
           <h6 class="experience-title">{{detail.department}}</h6>
           <p class="experience-desc">{{detail.degree}}<br>
