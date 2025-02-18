@@ -2,7 +2,8 @@
 author_logo: profile.jpg
 author: Mike Tsai
 # bio: "Cheng-Yu (Mike) Tsai is a first-year PhD student at Georgia Tech ECE. Generally, his interest is to accelerate the performance of a system with systematic, explainable approach, or to develop tools facilitate this goal. His MS thesis is about a performance analytical model which enables design space exploration (DSE) of cache design and understanding of workload characteristics. During his work at TSMC, he always actively seeks for chances to leverage parallel programming, sparsity, reducing software stack, etc., to improve the performance of tasks"
-bio: "Cheng-Yu (Mike) Tsai is a first-year PhD student at GTCAD Lab supervised by Dr. Sung-Kyu Lim in Georgia Tech ECE. Before joining the GTCAD lab, he worked at TSMC's custom design flow team for three years, where the mission was to develop tools embedded in PDK or cooperate with EDA companies for new features to facilitate customers' design efforts. He earned a master's degree in computer science at National Taiwan University (NTU) and double majored in electrical engineering and computer science at NTU for his bachelor's degree. His MS thesis is about a performance analytical model enabling design space exploration (DSE) of cache design and understanding workload characteristics."
+# bio: "Cheng-Yu (Mike) Tsai is a first-year PhD student at GTCAD Lab supervised by Dr. Sung-Kyu Lim in Georgia Tech ECE. Before joining the GTCAD lab, he worked at TSMC's custom design flow team for three years, where the mission was to develop tools embedded in PDK or cooperate with EDA companies for new features to facilitate customers' design efforts. He earned a master's degree in computer science at National Taiwan University (NTU) and double majored in electrical engineering and computer science at NTU for his bachelor's degree. His MS thesis is about a performance analytical model enabling design space exploration (DSE) of cache design and understanding workload characteristics."
+bio: "Cheng-Yu (Mike) Tsai is a first-year PhD student at the GTCAD Lab, supervised by Dr. Sung-Kyu Lim in Georgia Tech's ECE department. Before joining the GTCAD Lab, he worked on TSMC's custom design flow team for three years, where his mission was to develop tools embedded in PDK or collaborate with EDA companies to introduce new features that facilitate customers' design efforts. He earned a master's degree in computer science from National Taiwan University (NTU) and double-majored in electrical engineering and computer science at NTU for his bachelor's degree. His MS thesis focused on a performance analytical model that enables design space exploration (DSE) of cache design and understanding workload characteristics."
 email: "cytsai@gatech.edu"
 location: Atlanta, Georgia, USA
 website_url: "https://mike84265.github.io"
@@ -24,26 +25,33 @@ flickr_username: "mike84265"
 
 # Experiences
 work_experiences:
+  - company_name: Georgia Institute of Technology
+    company_logo: GTVertical_RGB.png
+    company_url: https://gatech.edu
+    designation: Graduate Research Assistant 
+    description: "<a class=plain href=https://gtcad.gatech.edu target=\"_blank\" rel=\"noopener noreferrer\">Georgia Tech Computer-Aided Design (GTCAD) Lab</a>"
+    period: "Aug '24 - current"
+    visibility: true
   - company_name: Taiwan Semiconductor Manufacturing Company
     company_logo: TSMC-Logo.png
     company_url: https://tsmc.com/
-    designation: Engineer (RDSS)
-    description: Custom Design Flow Development Department, DTP, R&D
-    period: "Jul '21 - Jul '24"
+    designation: Engineer 
+    description: Custom Design Flow Development Department, Design & Technology Platform, R&D
+    period: "Jul '21 - Jul '24 (3 years)"
     visibility: true
   - company_name: National Taiwan University
     company_logo: NTU-Logo.png
     company_url: https://www.ntu.edu.tw
     designation: Teaching Assistant
     description: Computer Architecture
-    period: "Sep '19 - Jan '20; Sep '20 - Jan '21"
+    period: "Sep '19 - Jan '20 and Sep '20 - Jan '21 (8 months)"
     visibility: true
   - company_name: National Taiwan University
     company_logo: NTU-Logo.png
     company_url: https://www.ntu.edu.tw
     designation: Part-time worker
     description: Division of Network Management, Computer & Information Networking Center
-    period: "Apr '18 - Jan '21"
+    period: "Apr '18 - Jan '21 (2 years 10 months)"
     visibility: true
 
 # Education
