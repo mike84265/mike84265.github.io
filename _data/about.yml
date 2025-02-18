@@ -26,7 +26,8 @@ flickr_username: "mike84265"
 # Experiences
 work_experiences:
   - company_name: Georgia Institute of Technology
-    company_logo: GTVertical_RGB.png
+    company_logo_dark: GTVertical_TechGold.png
+    company_logo_light: GTVertical_RGB.png
     company_url: https://gatech.edu
     designation: Graduate Research Assistant 
     description: "<a class=plain href=https://gtcad.gatech.edu target=\"_blank\" rel=\"noopener noreferrer\">Georgia Tech Computer-Aided Design (GTCAD) Lab</a>"
@@ -57,8 +58,8 @@ work_experiences:
 # Education
 education_details:
   - college_name: Georgia Institute of Technology
-    # college_logo: GT-Logo.png
-    college_logo: GTVertical_RGB.png
+    college_logo_dark: GTVertical_TechGold.png
+    college_logo_light: GTVertical_RGB.png
     college_url: https://gatech.edu
     department: "<a class=plain href=https://ece.gatech.edu/ target=\"_blank\" rel=\"noopener noreferrer\">Electrical & Computer Engineering</a>"
     degree: Doctor of Philosophy (Ph.D.)

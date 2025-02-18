@@ -170,10 +170,24 @@ layout: default
       %}
       <div class="row">
         <div class="col-lg-2 col-md-2 col-sm-3 col-xs-3" style="margin-left: auto; margin-right: auto;">
+          {% if exp.company_logo_dark and exp.company_logo_light %}
+          <img
+            src="{{site.url}}{{site.baseurl}}/assets/img/{{ exp.company_logo_dark}}"
+            class="company-logo"
+            id="companylogo-{{ forloop.index }}"
+          >
+          <script>
+          themeBoundImages.set("companylogo-{{ forloop.index }}", {
+            dark: "{{site.url}}{{site.baseurl}}/assets/img/{{exp.company_logo_dark}}",
+            light:"{{site.url}}{{site.baseurl}}/assets/img/{{exp.company_logo_light}}",
+          });
+          </script>
+          {% else %}
           <img
             src="{{site.url}}{{site.baseurl}}/assets/img/{{ exp.company_logo }}"
             class="company-logo"
           />
+          {% endif %}
         </div>
         <div class="clearfix"></div>
         <div class="col-lg-9 col-md-9 col-sm-8 col-xs-8">
@@ -192,10 +206,24 @@ layout: default
       == true %}
       <div class="row">
         <div class="col-lg-2 col-md-2 col-sm-3 col-xs-3" style="margin-left: auto; margin-right: auto;">
+          {% if detail.college_logo_dark and detail.college_logo_light %}
+          <img
+            src="{{site.url}}{{site.baseurl}}/assets/img/{{ detail.college_logo_dark}}"
+            class="company-logo"
+            id="edulogo-{{ forloop.index }}"
+          >
+          <script>
+          themeBoundImages.set("edulogo-{{ forloop.index }}", {
+            dark: "{{site.url}}{{site.baseurl}}/assets/img/{{detail.college_logo_dark}}",
+            light:"{{site.url}}{{site.baseurl}}/assets/img/{{detail.college_logo_light}}",
+          });
+          </script>
+          {% else %}
           <img
             src="{{site.url}}{{site.baseurl}}/assets/img/{{ detail.college_logo}}"
             class="company-logo"
           />
+          {% endif %}
         </div>
         <div class="clearfix"></div>
         <div class="col-lg-9 col-md-9 col-sm-8 col-xs-8">

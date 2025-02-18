@@ -12,6 +12,22 @@ else{
  * 
  * Initialize page theme and set event handlers
  */
+
+let themeBoundImages = new Map();
+
+function updateImgTheme() {
+    for (let [key, value] of themeBoundImages) {
+        switch (localStorage.getItem('color-theme')) {
+            case 'dark':
+                document.getElementById(key).src = value.dark;
+                break;
+            case 'light':
+                document.getElementById(key).src = value.light;
+                break;
+        }
+    }
+}
+
 function modeSwitcher() {
 
 	switch ( localStorage.getItem('color-theme') ){
@@ -37,6 +53,6 @@ function modeSwitcher() {
 			document.documentElement.setAttribute('data-theme', 'dark');
 			localStorage.setItem('color-theme', 'dark');
 		}
-        
+        updateImgTheme();
     });
 }
