@@ -7,7 +7,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 # Navigation: put at _data/navigation.yml
 
 title: Mike Tsai
-subtitle: A PhD student at GATech ECE with experiences in architecture and EDA.
+subtitle: A PhD student at GATech ECE with experiences in EDA and architecture.
 # subtitle: Cheng-Yu (Mike) Tsai is a prospective PhD student in EE/CS, interested in computer architecture.
 
 # for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
